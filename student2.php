@@ -17,7 +17,7 @@ if(isset($_GET['logout'])){
   unset($_SESSION['email']);
   header("location:index.php");
 }
-
+// comment 2
 //
 // $db="dmce";
 // $servername = "localhost";
